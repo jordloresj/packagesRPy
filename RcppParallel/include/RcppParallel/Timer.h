@@ -1,12 +1,5 @@
-
 #ifndef __RCPP_PARALLEL_TIMER__
 #define __RCPP_PARALLEL_TIMER__
-
-#include <cstdint>
-#include <string>
-#include <vector>
-#include <list>
-#include <Rcpp.h>
 
 namespace RcppParallel {
     typedef uint64_t nanotime_t;
@@ -212,4 +205,4 @@ namespace RcppParallel {
 } // namespace RcppParallel
 
 
-#endif // __RCPP_PARALLEL_TIMER__
+#endif // __RCPP_PARALLEL_COMMON__
